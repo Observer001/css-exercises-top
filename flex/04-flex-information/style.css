@@ -5,11 +5,16 @@ body {
 img {
   width: 100px;
   height: 100px;
+  /*  */
+  margin: 0;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*  */
+  text-align: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -23,4 +28,28 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.items {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+
+.card {
+  max-width: 200px;
+  /* width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0; */
+  /* padding: 0; */
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+}
+
+body {
+  text-align: center;
 }
