@@ -34,20 +34,23 @@ input {
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  flex: 1;
+  gap: 16px;
 }
 
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .footer {
-  background-color: #eeeeee;
+  background-color: #eee;
 }
-
+/* 
 .left-links, 
 .right-links {
   display: flex;
@@ -57,13 +60,20 @@ input {
   justify-content: space-between;
 }
 
+li {
+  list-style: none;
+} */
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
 a {
   text-decoration: none;
   color: #666;
-}
-
-li {
-  list-style: none;
 }
 
 button {
